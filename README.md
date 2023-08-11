@@ -7,4 +7,5 @@ no site do dev container
 
 ## O que preciso instalar para utilizar?
  - Docker
+ - VS Code
  - Dev Container extension VS Code
