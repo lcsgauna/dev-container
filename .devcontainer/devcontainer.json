@@ -1,0 +1,25 @@
+{
+	"name": "dev-container",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"editor.formatOnSave": true
+			},
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"dbaeumer.vscode-eslint"
+			]
+		}
+	},
+	"containerEnv": {
+		"Teste": "teste"
+	},
+	"forwardPorts": [3000],
+	"hostRequirements": {
+		"cpus": 3,
+		"memory": "2"
+	}
+}
