@@ -1,10 +1,8 @@
-# Dev container
+# React + Vite
 
-Um dev container inicial para projetos que utilizam node js,
-este container utiliza node:lts-alpine e por isso nao utiliza features disponibilizados
-no site do dev container
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-## O que preciso instalar para utilizar?
- - Docker
- - Dev Container extension VS Code
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

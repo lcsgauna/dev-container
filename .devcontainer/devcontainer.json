@@ -15,7 +15,7 @@
 		}
 	},
 	"containerEnv": {
-		"Teste": "teste"
+		"CHOKIDAR_USEPOLLING": "true"
 	},
 	"forwardPorts": [3000],
 	"hostRequirements": {
